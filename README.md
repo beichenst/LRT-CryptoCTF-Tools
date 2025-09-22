@@ -1,4 +1,4 @@
-# 🛠️ CryptoCTF-Tools 可视化版
+# 🛠️ CryptoCTF-Tools v1.1可视化版
 
 一键开箱的 **CTF 密码学桌面工具** —— 自带浏览器界面，**双击即用**，无需安装 Python！
 
