@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    background: #f7f7f7;
+}
+h1 {
+    text-align: center;
+}
+.box {
+    margin: 10px 0;
+}
+label {
+    font-weight: bold;
+}
+textarea, select, button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background: #0056b3;
+}

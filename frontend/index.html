@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>CryptoCTF-Tools</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🛠️ LRT-CryptoCTF-Tools</h1>
+
+    <div class="box">
+        <label>模式：</label>
+        <select id="mode">
+            <option value="encrypt">加密</option>
+            <option value="decrypt">解密</option>
+        </select>
+    </div>
+
+    <div class="box">
+        <label>算法：</label>
+        <select id="cipher"></select>
+    </div>
+
+    <!-- 密钥输入区（动态生成） -->
+    <div id="keyBox" class="box"></div>
+
+    <div class="box">
+        <label>输入：</label>
+        <textarea id="input" rows="4"></textarea>
+    </div>
+
+    <button id="run">运行</button>
+
+    <div class="box">
+        <label>结果：</label>
+        <textarea id="output" rows="6" readonly></textarea>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
