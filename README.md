@@ -15,7 +15,7 @@
 ---
 
 ## 🚀 快速开始
-1. 下载 release 里的 `CryptoCTF-Tools.exe`
+1. 下载 dist 里的 `CryptoCTF-Tools.exe`
 2. 双击 → 浏览器自动打开界面
 3. 选择「加密/解密」→ 选择算法 → 填写输入 & 参数 → 点「运行」→ 实时得到结果
 
